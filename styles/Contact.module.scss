@@ -1,0 +1,31 @@
+$text-color: white;
+.main {
+  width: 50%;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.contentCont {
+  div {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 50px 0;
+  }
+  p {
+    color: $text-color;
+  }
+}
+
+.contactIcon {
+  color: $text-color;
+  margin: 0 10px;
+}

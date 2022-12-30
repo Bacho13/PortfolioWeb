@@ -1,0 +1,105 @@
+$text-color: white;
+.main {
+  width: 100%;
+  padding: 100px 0px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.contentCont {
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 50px auto;
+    width: 30%;
+  }
+  p {
+    color: $text-color;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .redDot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+
+    margin: 0 10px;
+    animation: mymove 1.5s infinite;
+  }
+  @keyframes mymove {
+    0% {
+      background: red;
+      filter: drop-shadow(0px 0px 5px red);
+    }
+    50% {
+      background: black;
+      filter: drop-shadow(0px 0px 0px red);
+    }
+    100% {
+      background: red;
+      filter: drop-shadow(0px 0px 5px red);
+    }
+  }
+
+  .name {
+    width: 200px;
+    text-overflow: hidden;
+  }
+}
+.liveLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactIcon {
+  color: $text-color;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contentCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      width: 70%;
+      margin: 0 auto;
+      margin: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .contentCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .name {
+      width: 100%;
+      text-align: center;
+      text-overflow: hidden;
+      text-transform: capitalize;
+    }
+  }
+}

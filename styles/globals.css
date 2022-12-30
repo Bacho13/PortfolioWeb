@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: linear-gradient(113.49deg, #984d38 -30.3%, #181e41 58.12%);
+  background-repeat: no-repeat;
+}
+
+.h1 {
+  font-family: poppis;
+  font-size: 30px;
+  font-weight: 500;
+  color: green;
+}
+
+.GlobalContainer {
+  width: 83.056vw;
+  margin: 1.389vw auto 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .GlobalContainer {
+    width: 95%;
+  }
+}

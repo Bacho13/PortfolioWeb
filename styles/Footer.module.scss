@@ -1,0 +1,117 @@
+$text-color: white;
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 3.944vw;
+}
+.topContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8.333vw 0;
+  h1 {
+    width: 36.806vw;
+    height: 4.653vw;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.472vw;
+    line-height: 4.653vw;
+    color: $text-color;
+    display: block;
+  }
+
+  button {
+    margin: 1.389vw 0;
+    display: flex;
+    align-items: center;
+    background: none;
+    color: $text-color;
+    border: solid 1px $text-color;
+    opacity: 0.7;
+    padding: 10px 20px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+  }
+  button:hover {
+    border: 1px solid rgba(207, 181, 255, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(207, 181, 255, 0.05);
+    opacity: 1;
+  }
+  .emailIcon {
+    margin-right: 5px;
+  }
+}
+.mailLink {
+  color: $text-color;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .topContent {
+    h1 {
+      width: 100%;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.bottomContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gitHub,
+.linkeIn {
+  width: 40px;
+  height: 40px;
+  color: $text-color;
+  opacity: 0.7;
+}
+
+.gitHub {
+  margin-right: 30px;
+}
+
+// .gitHub,
+.linkeIn:hover {
+  opacity: 1;
+}
+.gitHub:hover {
+  opacity: 1;
+}
+.rightSide {
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    /* identical to box height, or 36px */
+
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: $text-color;
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .bottomContent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
