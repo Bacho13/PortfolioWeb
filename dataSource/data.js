@@ -107,4 +107,9 @@ export const projects = [
     repo: "https://github.com/Bacho13/Quiz-app",
     live: "https://bacho13.github.io/Quiz-app/",
   },
+  {
+    name: "This webSIte",
+    repo: "https://github.com/Bacho13/PortfolioWeb",
+    live: "https://portfolio-web-puce.vercel.app/",
+  },
 ];
