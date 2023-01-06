@@ -62,6 +62,9 @@ $text-color: white;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
+  p {
+    text-decoration: none;
+  }
 }
 
 .contactIcon {
