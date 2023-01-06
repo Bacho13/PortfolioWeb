@@ -45,7 +45,7 @@ export const dataList = [
     alt: "tailwind logo",
   },
   {
-    image: "/images/Bootstrap1.png",
+    image: "/images/bootstrap.png",
     name: "Bootstrap",
     alt: "Bootstrap logo",
   },
