@@ -112,4 +112,9 @@ export const projects = [
     repo: "https://github.com/Bacho13/PortfolioWeb",
     live: "https://portfolio-web-puce.vercel.app/",
   },
+  {
+    name: "To-do",
+    repo: "https://github.com/Bacho13/ToDo",
+    live: "https://to-do-azure.vercel.app/",
+  },
 ];
