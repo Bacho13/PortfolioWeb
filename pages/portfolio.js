@@ -20,10 +20,15 @@ function Portfolio() {
           {projects.map((item) => (
             <div key={item.name}>
               <p className={styles.name}>{item.name}</p>
-              <Link href={item.repo}>
+              <Link href={item.repo} underline="none">
                 <GitHubIcon className={styles.contactIcon} />
               </Link>
-              <Link className={styles.liveLink} href={item.live}>
+              <Link
+                className={styles.liveLink}
+                href={item.live}
+                underline="none"
+                style={{ textDecoration: "none" }}
+              >
                 <div className={styles.redDot}></div>
                 <p>Live</p>
               </Link>
