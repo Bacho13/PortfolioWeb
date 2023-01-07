@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+link,
+a {
+  text-decoration: none;
+}
 html {
   background: linear-gradient(113.49deg, #984d38 -30.3%, #181e41 58.12%);
   background-repeat: no-repeat;
