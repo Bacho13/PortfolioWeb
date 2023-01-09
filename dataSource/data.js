@@ -64,6 +64,11 @@ export const dataList = [
     name: "vercel",
     alt: "vercel logo",
   },
+  {
+    image: "/images/redux.png",
+    name: "Redux / Toolkit",
+    alt: "redux logonpm run",
+  },
 ];
 
 export const projects = [
