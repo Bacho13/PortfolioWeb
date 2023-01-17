@@ -83,6 +83,11 @@ export const projects = [
     live: "https://tenzies-a9mdbkcei-bacho13.vercel.app/",
   },
   {
+    name: "Spy",
+    repo: "https://github.com/Bacho13/WhoIsSpy-",
+    live: "https://who-is-spy.vercel.app/",
+  },
+  {
     name: "Meme generator",
     repo: "https://github.com/Bacho13/Meme_Generator",
     live: "https://meme-generator-m79prf7ix-bacho13.vercel.app/",
