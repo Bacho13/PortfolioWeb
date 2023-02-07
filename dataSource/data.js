@@ -73,6 +73,11 @@ export const dataList = [
 
 export const projects = [
   {
+    name: "E-com (under the construction)",
+    repo: "https://github.com/Bacho13/Weather-forcast",
+    live: "https://weather-forcast-flame.vercel.app/",
+  },
+  {
     name: "Weather app",
     repo: "https://github.com/Bacho13/Weather-forcast",
     live: "https://weather-forcast-flame.vercel.app/",
