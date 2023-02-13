@@ -75,7 +75,7 @@ export const projects = [
   {
     name: "E-com (under the construction)",
     repo: "https://github.com/Bacho13/e-com",
-    live: "https://e-68ovdfvd4-bacho13.vercel.app/",
+    live: "https://e-com-ruby.vercel.app/",
   },
   {
     name: "Weather app",
