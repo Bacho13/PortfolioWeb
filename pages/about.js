@@ -15,10 +15,10 @@ function About() {
           <title>Bacho - about</title>
         </Head>
         <p>
-          Hi, I'm Bacho, a beginner frontend developer. I have been fascinated
-          by technology since childhood, and I always thought that I was better
-          at working with it than my relatives or friends. Unfortunately, I did
-          not continue my studies in the field of technology, and I believe that
+          Hi, Im Bacho, a beginner frontend developer. I have been fascinated by
+          technology since childhood, and I always thought that I was better at
+          working with it than my relatives or friends. Unfortunately, I did not
+          continue my studies in the field of technology, and I believe that
           this was the biggest mistake of my life. It is true that if a person
           loves something, they will inevitably fight for it and achieve it.
           This happened in my life too. I started studying business management,
@@ -26,8 +26,8 @@ function About() {
           not interested in it. It was not my field. The only thing I realized
           during those three years is that a person does not need to learn
           management because they cannot become a manager if they are not born
-          to be one. Let's stop talking about my past because the present and
-          the future are more interesting. After all this, I started to learn
+          to be one. Lets stop talking about my past because the present and the
+          future are more interesting. After all this, I started to learn
           programming on my own, and I chose frontend because I like seeing the
           results during work, which keeps me motivated. I believe that I am
           ready to take responsibility and immerse myself in the workflow so
