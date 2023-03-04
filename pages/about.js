@@ -15,25 +15,25 @@ function About() {
           <title>Bacho - about</title>
         </Head>
         <p>
-          Hi, Im Bacho, a beginner frontend developer. I was fascinated by
-          technology since childhood and I thought that I was better at working
-          with them than my relatives or friends. Unfortunately, I did not
-          continue my studies in the direction of technology, and I believe that
-          this was my most wrong step in my life. It is true that what a person
-          loves, he will inevitably fight for it and achieve it. This happened
-          in my life too. I started studying business management, but I could
-          not finish it. After the end of the third year, I quit because I was
-          not interested, it was not my field. The only thing I realized during
-          these three years is that a person does not need to learn management
-          because he cannot become a manager if he is not a manager by birth.
-          lets stop talking about my past because the present and the future are
-          more interesting. After all this, I started to learn programming on my
-          own, and on this difficult path, I chose frontend because I like to
-          see the results during work, which keeps me motivated. I believe that
-          I am ready to take responsibility and immerse myself in the work flow
-          so that after so much work I want to become a professional and deepen
-          my knowledge. I will also say here that I plan to become a fullstuck
-          developer and I will definitely do it. Thank you for your attentions.
+          Hi, I'm Bacho, a beginner frontend developer. I have been fascinated
+          by technology since childhood, and I always thought that I was better
+          at working with it than my relatives or friends. Unfortunately, I did
+          not continue my studies in the field of technology, and I believe that
+          this was the biggest mistake of my life. It is true that if a person
+          loves something, they will inevitably fight for it and achieve it.
+          This happened in my life too. I started studying business management,
+          but I could not finish it. After the third year, I quit because I was
+          not interested in it. It was not my field. The only thing I realized
+          during those three years is that a person does not need to learn
+          management because they cannot become a manager if they are not born
+          to be one. Let's stop talking about my past because the present and
+          the future are more interesting. After all this, I started to learn
+          programming on my own, and I chose frontend because I like seeing the
+          results during work, which keeps me motivated. I believe that I am
+          ready to take responsibility and immerse myself in the workflow so
+          that, after so much work, I can become a professional and deepen my
+          knowledge. I also plan to become a full-stack developer, and I will
+          definitely achieve this goal. Thank you for your attention.
         </p>
         <hr />
         <div className={styles.skills}>
