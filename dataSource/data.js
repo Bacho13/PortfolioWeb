@@ -73,6 +73,11 @@ export const dataList = [
 
 export const projects = [
   {
+    name: "Amazon (Copy)",
+    repo: "https://github.com/Bacho13/AmazonCopy",
+    live: "https://amazon-copy-rho.vercel.app/",
+  },
+  {
     name: "E-com (under the construction)",
     repo: "https://github.com/Bacho13/e-com",
     live: "https://e-com-ruby.vercel.app/",
