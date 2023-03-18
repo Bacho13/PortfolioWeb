@@ -130,7 +130,7 @@ export const projects = [
   {
     name: "This webSIte",
     repo: "https://github.com/Bacho13/PortfolioWeb",
-    live: "https://portfolio-web-puce.vercel.app/",
+    live: "https://portfolio-web-six-phi.vercel.app/",
   },
   {
     name: "To-do",
