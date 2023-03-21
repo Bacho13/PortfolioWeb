@@ -16,8 +16,13 @@ export const dataList = [
   },
   {
     image: "/images/js.png",
-    name: "java scripts",
-    alt: "java scripts logo",
+    name: "javascripts",
+    alt: "javascripts logo",
+  },
+  {
+    image: "/images/typescript.png",
+    name: "typescript",
+    alt: "typescript logo",
   },
   {
     image: "/images/react.png",
