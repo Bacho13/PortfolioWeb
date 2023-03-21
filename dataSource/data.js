@@ -73,6 +73,11 @@ export const dataList = [
 
 export const projects = [
   {
+    name: "Todo (TypeScript + clean React.js)",
+    repo: "https://github.com/Bacho13/Todo-tsrct/blob/main/README.md",
+    live: "https://todo-tsrct.vercel.app/",
+  },
+  {
     name: "Amazon (Copy)",
     repo: "https://github.com/Bacho13/AmazonCopy",
     live: "https://amazon-copy-rho.vercel.app/",
