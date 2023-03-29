@@ -78,6 +78,11 @@ export const dataList = [
 
 export const projects = [
   {
+    name: "Resume Generator",
+    repo: "https://github.com/Bacho13/Resume-Generator",
+    live: "https://resume-generator-lac.vercel.app/?fbclid=IwAR3QTaOMF4E6HGtB11ghrK7ttP6RO2NsavWVcSTmE7OTdg8obxlopWEGnXE",
+  },
+  {
     name: "Todo (TypeScript + clean React.js)",
     repo: "https://github.com/Bacho13/Todo-tsrct/blob/main/README.md",
     live: "https://todo-tsrct.vercel.app/",
