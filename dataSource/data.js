@@ -30,6 +30,11 @@ export const dataList = [
     alt: "react.js logo",
   },
   {
+    image: "/images/expo.png",
+    name: "expo",
+    alt: "Expo logo",
+  },
+  {
     image: "/images/next1.png",
     name: "next",
     alt: "next.js logo",
